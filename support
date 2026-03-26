@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StitchUp Repairs — Support & Legal</title>
+    <style>
+        :root { --purple: #6C5CE7; --dark: #1a1a2e; --gray: #4a4a6a; --light: #f8f9fa; --border: #e2e8f0; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; color: var(--dark); line-height: 1.7; background: var(--light); }
+        .header { background: linear-gradient(135deg, #6C5CE7, #3B2F8F); color: #fff; padding: 60px 20px; text-align: center; }
+        .header h1 { font-size: 2.5em; margin-bottom: 10px; }
+        .header p { font-size: 1.2em; opacity: 0.9; max-width: 600px; margin: 0 auto; }
+        nav { background: #fff; border-bottom: 1px solid var(--border); padding: 15px 20px; text-align: center; position: sticky; top: 0; z-index: 10; }
+        nav a { color: var(--purple); text-decoration: none; margin: 0 20px; font-weight: 600; font-size: 0.95em; }
+        nav a:hover { text-decoration: underline; }
+        .container { max-width: 800px; margin: 0 auto; padding: 40px 20px; }
+        section { background: #fff; border-radius: 12px; padding: 40px; margin-bottom: 30px; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        h2 { color: var(--purple); font-size: 1.8em; margin-bottom: 20px; padding-bottom: 10px; border-bottom: 2px solid var(--border); }
+        h3 { color: var(--dark); font-size: 1.2em; margin: 25px 0 10px; }
+        p, li { color: var(--gray); margin-bottom: 12px; }
+        ul { padding-left: 24px; }
+        li { margin-bottom: 8px; }
+        a { color: var(--purple); }
+        .contact-box { background: #f0edff; border-radius: 8px; padding: 20px; margin-top: 20px; }
+        .contact-box p { margin-bottom: 6px; }
+        .footer { text-align: center; padding: 30px; color: var(--gray); font-size: 0.9em; }
+        @media (max-width: 600px) { .header h1 { font-size: 1.8em; } section { padding: 24px; } nav a { margin: 0 10px; font-size: 0.85em; } }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>StitchUp Repairs</h1>
+    <p>Connecting people who need clothing repairs with skilled repairers in their neighborhood.</p>
+</div>
+
+<nav>
+    <a href="#support">Support</a>
+    <a href="#privacy">Privacy Policy</a>
+    <a href="#terms">Terms of Service</a>
+    <a href="#legal">Legal Notice</a>
+</nav>
+
+<div class="container">
+
+    <!-- SUPPORT -->
+    <section id="support">
+        <h2>Support</h2>
+        <p>Need help with StitchUp Repairs? We're here to assist you.</p>
+
+        <h3>Frequently Asked Questions</h3>
+        <p><strong>How do I create a repair request?</strong><br>
+        Tap the + button in the tab bar, take or select a photo of the item, describe the repair needed, set your budget and travel radius, then tap "Post Repair Request".</p>
+
+        <p><strong>How do I apply for a repair job?</strong><br>
+        Switch to "Available Jobs" on the home screen, browse nearby requests, tap one to view details, and tap "Apply for this Job".</p>
+
+        <p><strong>How does payment work?</strong><br>
+        Payments are handled directly between users via PayPal. After a job is completed, the requester can pay using the "Pay via PayPal" button, which opens a pre-filled PayPal.me link.</p>
+
+        <p><strong>How do I set up my PayPal?</strong><br>
+        Go to your Profile tab and enter your PayPal.me username. This allows others to pay you directly.</p>
+
+        <p><strong>How do I delete my account?</strong><br>
+        Go to Profile → scroll to the bottom → tap "Delete Account". This permanently removes your account and all associated data.</p>
+
+        <div class="contact-box">
+            <p><strong>Contact Support</strong></p>
+            <p>Email: <a href="mailto:mail.likemind@gmail.com">mail.likemind@gmail.com</a></p>
+            <p>We typically respond within 48 hours.</p>
+        </div>
+    </section>
+
+    <!-- PRIVACY POLICY -->
+    <section id="privacy">
+        <h2>Privacy Policy</h2>
+        <p><em>Last updated: March 26, 2026</em></p>
+
+        <h3>1. Data Controller</h3>
+        <p>Benedikt Langenberger<br>
+        Prof.-Dr.-Helmert-Straße 2-3<br>
+        14482 Potsdam, Germany<br>
+        Email: <a href="mailto:mail.likemind@gmail.com">mail.likemind@gmail.com</a></p>
+
+        <h3>2. Data We Collect</h3>
+        <ul>
+            <li><strong>Account data:</strong> Name, email address, and password (hashed) when you create an account.</li>
+            <li><strong>Profile data:</strong> Profile picture, bio, PayPal username, and role preference that you voluntarily provide.</li>
+            <li><strong>Location data:</strong> Your approximate location (latitude/longitude) when you create a repair request or browse available jobs. Location is only accessed with your explicit permission.</li>
+            <li><strong>Content data:</strong> Photos of items to repair, descriptions, messages in chats, and ratings/reviews.</li>
+            <li><strong>Usage data:</strong> Basic app interaction data for functionality purposes.</li>
+        </ul>
+
+        <h3>3. How We Use Your Data</h3>
+        <ul>
+            <li>To provide and operate the StitchUp Repairs service</li>
+            <li>To match repair seekers with nearby repairers based on location and radius</li>
+            <li>To facilitate communication between matched users</li>
+            <li>To display ratings and reviews for trust and transparency</li>
+            <li>To send notifications about applications, messages, and job updates</li>
+        </ul>
+
+        <h3>4. Data Storage & Processing</h3>
+        <p>Your data is stored on Supabase servers located in the EU (Ireland, eu-west-1). All data transmission is encrypted via HTTPS/TLS. Photos are stored in secure cloud storage with access controls.</p>
+
+        <h3>5. Data Sharing</h3>
+        <p>We do not sell your personal data. Your data is shared only in the following ways:</p>
+        <ul>
+            <li><strong>With other users:</strong> Your name, profile picture, ratings, and repair request details are visible to other users as part of the service.</li>
+            <li><strong>Service providers:</strong> We use Supabase (database/auth), and photos are stored via Supabase Storage.</li>
+            <li><strong>PayPal:</strong> When you choose to pay, you are redirected to PayPal. We do not process or store payment information.</li>
+        </ul>
+
+        <h3>6. Your Rights (GDPR)</h3>
+        <p>Under the General Data Protection Regulation (GDPR), you have the right to:</p>
+        <ul>
+            <li><strong>Access:</strong> Request a copy of your personal data</li>
+            <li><strong>Rectification:</strong> Correct inaccurate personal data</li>
+            <li><strong>Erasure:</strong> Delete your account and all associated data (available in-app under Profile)</li>
+            <li><strong>Portability:</strong> Receive your data in a structured, machine-readable format</li>
+            <li><strong>Objection:</strong> Object to processing of your personal data</li>
+            <li><strong>Restriction:</strong> Request restriction of processing</li>
+        </ul>
+        <p>To exercise any of these rights, contact us at <a href="mailto:mail.likemind@gmail.com">mail.likemind@gmail.com</a>.</p>
+
+        <h3>7. Data Retention</h3>
+        <p>Your data is retained as long as your account is active. When you delete your account, all personal data is permanently removed within 30 days. Anonymized, aggregated data may be retained for analytical purposes.</p>
+
+        <h3>8. Children's Privacy</h3>
+        <p>StitchUp Repairs is not intended for children under 16. We do not knowingly collect personal data from children under 16. If we become aware of such collection, we will delete the data promptly.</p>
+
+        <h3>9. Changes to This Policy</h3>
+        <p>We may update this privacy policy from time to time. We will notify you of material changes via the app or email. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+    </section>
+
+    <!-- TERMS OF SERVICE -->
+    <section id="terms">
+        <h2>Terms of Service</h2>
+        <p><em>Last updated: March 26, 2026</em></p>
+
+        <h3>1. About StitchUp Repairs</h3>
+        <p>StitchUp Repairs ("the App") is a platform operated by Benedikt Langenberger that connects individuals seeking clothing repairs ("Requesters") with individuals offering repair services ("Repairers"). The App acts solely as an intermediary and is not a party to any agreement between Requesters and Repairers.</p>
+
+        <h3>2. User Accounts</h3>
+        <ul>
+            <li>You must be at least 16 years old to use this App.</li>
+            <li>You must provide accurate and complete information when creating your account.</li>
+            <li>You are responsible for maintaining the security of your account credentials.</li>
+            <li>You may delete your account at any time through the Profile section of the App.</li>
+        </ul>
+
+        <h3>3. Platform Role</h3>
+        <p>StitchUp Repairs is a marketplace platform only. We:</p>
+        <ul>
+            <li>Do not employ or contract any Repairers</li>
+            <li>Do not guarantee the quality of any repair work</li>
+            <li>Do not set prices — these are agreed between Requesters and Repairers</li>
+            <li>Do not process payments — payments are handled directly between users via PayPal</li>
+            <li>Are not responsible for disputes between users</li>
+        </ul>
+
+        <h3>4. User Responsibilities</h3>
+        <p><strong>All users agree to:</strong></p>
+        <ul>
+            <li>Provide truthful and accurate information</li>
+            <li>Communicate respectfully with other users</li>
+            <li>Not use the App for illegal, fraudulent, or harmful purposes</li>
+            <li>Not upload offensive, illegal, or inappropriate content</li>
+            <li>Not attempt to circumvent the platform to avoid its terms</li>
+        </ul>
+        <p><strong>Requesters</strong> are responsible for providing accurate descriptions and photos of items needing repair, and for paying the agreed-upon price upon completion.</p>
+        <p><strong>Repairers</strong> are responsible for honestly representing their skills and completing accepted jobs to a reasonable standard.</p>
+
+        <h3>5. Payments</h3>
+        <p>All payments are made directly between users via PayPal. StitchUp Repairs does not process, hold, or mediate any payments. Users are responsible for resolving any payment disputes directly with each other or through PayPal's dispute resolution.</p>
+
+        <h3>6. Ratings and Reviews</h3>
+        <p>Users may rate and review each other after a completed job. Reviews must be honest, fair, and based on genuine experience. We reserve the right to remove reviews that violate these terms.</p>
+
+        <h3>7. Content</h3>
+        <p>By uploading content (photos, descriptions, messages) to the App, you grant StitchUp Repairs a non-exclusive, worldwide license to use, display, and store this content for the purpose of operating the service. You retain ownership of your content and may delete it at any time.</p>
+
+        <h3>8. Limitation of Liability</h3>
+        <p>To the maximum extent permitted by law:</p>
+        <ul>
+            <li>StitchUp Repairs is provided "as is" without warranties of any kind</li>
+            <li>We are not liable for any damages arising from the use of the App</li>
+            <li>We are not liable for the actions, quality of work, or conduct of any user</li>
+            <li>We are not liable for any loss or damage to items being repaired</li>
+            <li>Our total liability shall not exceed the amount you have paid us (which is zero, as the App is free to use)</li>
+        </ul>
+
+        <h3>9. Termination</h3>
+        <p>We reserve the right to suspend or terminate accounts that violate these terms. You may terminate your account at any time by deleting it through the App.</p>
+
+        <h3>10. Governing Law</h3>
+        <p>These terms are governed by the laws of the Federal Republic of Germany. The courts of Potsdam, Germany shall have jurisdiction for any disputes arising from these terms, subject to mandatory consumer protection provisions.</p>
+
+        <h3>11. Changes to These Terms</h3>
+        <p>We may modify these terms at any time. Material changes will be communicated through the App. Continued use constitutes acceptance of modified terms.</p>
+    </section>
+
+    <!-- LEGAL NOTICE / IMPRESSUM -->
+    <section id="legal">
+        <h2>Legal Notice (Impressum)</h2>
+        <p>Information pursuant to § 5 TMG (German Telemedia Act)</p>
+
+        <h3>Responsible Person</h3>
+        <p>Benedikt Langenberger<br>
+        Prof.-Dr.-Helmert-Straße 2-3<br>
+        14482 Potsdam<br>
+        Germany</p>
+
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:mail.likemind@gmail.com">mail.likemind@gmail.com</a></p>
+
+        <h3>VAT ID</h3>
+        <p>No VAT identification number has been issued pursuant to § 27a of the German VAT Act (UStG). Small business exemption pursuant to § 19 UStG.</p>
+
+        <h3>Disclaimer</h3>
+        <p>The contents of this app and website have been created with the utmost care. However, no guarantee is made for the accuracy, completeness, or timeliness of the content.</p>
+
+        <h3>Liability for Links</h3>
+        <p>This app may contain links to external websites. The operator of the linked pages is always responsible for their content. We have no influence on the current or future design and content of linked pages.</p>
+    </section>
+
+</div>
+
+<div class="footer">
+    <p>&copy; 2026 Benedikt Langenberger — StitchUp Repairs. All rights reserved.</p>
+</div>
+
+</body>
+</html>
